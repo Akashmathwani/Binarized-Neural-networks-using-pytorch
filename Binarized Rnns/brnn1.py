@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 # Parameters and DataLoaders
 HIDDEN_SIZE = 100
 N_LAYERS = 1
-BATCH_SIZE = 256
+BATCH_SIZE = 128
 N_EPOCHS = 250
 
 test_dataset = NameDataset(is_train_set=False)
